@@ -1,0 +1,24 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-storefront-dev-214854-authRole",
+      "UnauthRoleArn": "arn:aws:iam::685088447079:role/amplify-storefront-dev-214854-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::685088447079:role/amplify-storefront-dev-214854-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-storefront-dev-214854-deployment",
+      "UnauthRoleName": "amplify-storefront-dev-214854-unauthRole",
+      "StackName": "amplify-storefront-dev-214854",
+      "StackId": "arn:aws:cloudformation:us-west-2:685088447079:stack/amplify-storefront-dev-214854/32bd4a50-cf0e-11eb-a2cf-0a1422c71043",
+      "AmplifyAppId": "daysewhbw5dso"
+    }
+  },
+  "auth": {
+    "storefrontf8e59007": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
